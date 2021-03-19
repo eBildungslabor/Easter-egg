@@ -2,8 +2,8 @@
 
   "use strict"
 
-  // type 'bravo' on your keyboard
-  let key = [66,82,65,86,79]
+  // type 'katze' on your keyboard
+  let key = [75,65,84,90,69]
   let ck = 0
   let max = key.length
 
@@ -62,7 +62,7 @@
     document.addEventListener('keyup', record)
   };
 
-  let data = './images/bravo.gif'
+  let data = 'https://media.giphy.com/media/l0IygWpszunxnkMAo/giphy.gif'
 
   init(data)
 
